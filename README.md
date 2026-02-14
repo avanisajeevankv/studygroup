@@ -1,28 +1,29 @@
 <p align="center">
+
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [study buddy] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [codex]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Anuja Jayan] - [LBS INSTITUTE OF TECHNOLOGY FOR WOMEN]
+- Member 2: [Avani K V ] - [LBS INSTITUTE OF TECHNOLOGY FOR WOMEN]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://github.com/avanisajeevankv/studygroup]
 
 ### Project Description
-[2-3 lines about what your project does]
+["study buddy" is a platform lets user creates study sections by entering the subject,time and location.other users can see available sections and join them,with a live count of participants.Its a simple way to find study parterns and organise group study.]
 
 ### The Problem statement
-[What problem are you solving?]
+[Students often find it difficult to organize group study sessions and stay consistent with focused study time. There is a need for a simple digital platform that helps students schedule sessions, manage participants, and improve productivity through structured timing methods.]
 
 ### The Solution
-[How are you solving it?]
+[The proposed solution is a web-based Study Buddy App that enables students to organize and join study sessions efficiently. It also includes a built-in Pomodoro timer to enhance concentration and productivity.]
 
 ---
 
@@ -31,10 +32,10 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: [html,css,javascript]
+- Frameworks used: [nil]
+- Libraries used: [no external libraries are used]
+- Tools used: [VS Code,web browser]
 
 **For Hardware:**
 - Main components: [List main components]
@@ -46,10 +47,10 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: [create study sessions]
+- Feature 2: [view available sessions]
+- Feature 3: [join sessions]
+- Feature 4: [mini participant tracking]
 
 ---
 
@@ -83,25 +84,25 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
+![c:\Users\Arjun\OneDrive\Pictures\Screenshots\coding space.png](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![c:\Users\Arjun\OneDrive\Pictures\Screenshots\home page overview.png](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![c:\Users\Arjun\OneDrive\Pictures\Screenshots\interior.png](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
 #### Diagrams
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
+![[User Interface]  <--input-->  [JavaScript Logic]  <--stores-->  [In-Memory Array / LocalStorage]](docs/architecture.png)
 *Explain your system architecture - components, data flow, tech stack interaction*
 
 **Application Workflow:**
 
-![Workflow](docs/workflow.png)
+![When the user opens the app, saved study sessions are loaded from LocalStorage and displayed. The user can create, search, join, or delete study sessions, and the data updates automatically. The Pomodoro timer helps users manage focused study time within the application.](docs/workflow.png)
 *Add caption explaining your workflow*
 
 ---
@@ -137,12 +138,12 @@ List the key features of your project:
 
 #### API Documentation
 
-**Base URL:** `https://api.yourproject.com`
+**Base URL:** 'https://github.com/avanisajeevankv/studygroup'
 
 ##### Endpoints
 
 **GET /api/endpoint**
-- **Description:** [What it does]
+- **Description:** [This is a GET API endpoint that accepts two parameters and returns a JSON response. It processes the request and sends back a status and data object as output.]
 - **Parameters:**
   - `param1` (string): [Description]
   - `param2` (integer): [Description]
