@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Buddy App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8f5;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #2e7d32;
+    }
+    .form-container, .sessions-container {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin: 20px auto;
+      max-width: 500px;
+    }
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #2e7d32;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #1b5e20;
+    }
+    .session-card {
+      background: #e0f2f1;
+      padding: 12px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .join-btn {
+      background-color: #0288d1;
+      color: white;
+      margin-top: 8px;
+    }
+    .join-btn:hover {
+      background-color: #01579b;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Study Buddy App</h1>
+
+<div class="form-container">
+  <h2>Create a Study Session</h2>
+  <input type="text" id="subject" placeholder="Subject (Math, Science, etc.)">
+  <input type="time" id="time">
+  <input type="text" id="location" placeholder="Location (Room/City)">
+  <button onclick="createSession()">Create Session</button>
+</div>
+
+<div class="sessions-container">
+  <h2>Available Sessions</h2>
+  <div id="sessionsList"></div>
+</div>
+
+<script>
+  let sessions = [];
+
+  function createSession() {
+    const subject = document.getElementById('subject').value;
+    const time = document.getElementById('time').value;
+    const location = document.getElementById('location').value;
+
+    if (!subject || !time || !location) {
+      alert("Please fill all fields!");
+      return;
+    }
+
+    const session = {
+      subject: subject,
+      time: time,
+      location: location,
+      joined: 0
+    };
+
+    sessions.push(session);
+    document.getElementById('subject').value = '';
+    document.getElementById('time').value = '';
+    document.getElementById('location').value = '';
+
+    renderSessions();
+  }
+
+  function joinSession(index) {
+    sessions[index].joined += 1;
+    renderSessions();
+  }
+
+  function renderSessions() {
+    const container = document.getElementById('sessionsList');
+    container.innerHTML = '';
+
+    sessions.forEach((session, index) => {
+      const div = document.createElement('div');
+      div.className = 'session-card';
+      div.innerHTML = `
+        <strong>Subject:</strong> ${session.subject}<br>
+        <strong>Time:</strong> ${session.time}<br>
+        <strong>Location:</strong> ${session.location}<br>
+        <strong>Joined:</strong> ${session.joined}<br>
+        <button class="join-btn" onclick="joinSession(${index})">Join</button>
+      `;
+      container.appendChild(div);
+    });
+  }
+</script>
+
+</body>
+</html>
