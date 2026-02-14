@@ -3,27 +3,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [study buddy] 🎯
+# study buddy 🎯
 
 ## Basic Details
 
 ### Team Name: [codex]
 
 ### Team Members
-- Member 1: [Anuja Jayan] - [LBS INSTITUTE OF TECHNOLOGY FOR WOMEN]
-- Member 2: [Avani K V ] - [LBS INSTITUTE OF TECHNOLOGY FOR WOMEN]
+- Member 1: Anuja Jayan - LBS INSTITUTE OF TECHNOLOGY FOR WOMEN
+- Member 2: Avani K V  - LBS INSTITUTE OF TECHNOLOGY FOR WOMEN
 
 ### Hosted Project Link
-[https://github.com/avanisajeevankv/studygroup]
+https://studyyybuddyy.netlify.app/
 
 ### Project Description
-["study buddy" is a platform lets user creates study sections by entering the subject,time and location.other users can see available sections and join them,with a live count of participants.Its a simple way to find study parterns and organise group study.]
+"study buddy" is a platform lets user creates study sections by entering the subject,time and location.other users can see available sections and join them,with a live count of participants.Its a simple way to find study parterns and organise group study.
 
 ### The Problem statement
-[Students often find it difficult to organize group study sessions and stay consistent with focused study time. There is a need for a simple digital platform that helps students schedule sessions, manage participants, and improve productivity through structured timing methods.]
+Students often find it difficult to organize group study sessions and stay consistent with focused study time. There is a need for a simple digital platform that helps students schedule sessions, manage participants, and improve productivity through structured timing methods.
 
 ### The Solution
-[The proposed solution is a web-based Study Buddy App that enables students to organize and join study sessions efficiently. It also includes a built-in Pomodoro timer to enhance concentration and productivity.]
+The proposed solution is a web-based Study Buddy App that enables students to organize and join study sessions efficiently. It also includes a built-in Pomodoro timer to enhance concentration and productivity.
 
 ---
 
@@ -32,25 +32,25 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [html,css,javascript]
-- Frameworks used: [nil]
-- Libraries used: [no external libraries are used]
-- Tools used: [VS Code,web browser]
+- Languages used: html,css,javascript
+- Frameworks used:nil
+- Libraries used: no external libraries are used
+- Tools used: VS Code,web browser
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: List main components
+- Specifications: Technical specifications
+- Tools required: List tools needed
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [create study sessions]
-- Feature 2: [view available sessions]
-- Feature 3: [join sessions]
-- Feature 4: [mini participant tracking]
+- Feature 1: create study sessions
+- Feature 2: view available sessions
+- Feature 3: join sessions
+- Feature 4: mini participant tracking
 
 ---
 
